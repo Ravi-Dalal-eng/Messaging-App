@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ravimessagingdalal.messagingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/chat_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/chat_app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MessagingApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.GroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ChattingMessagingApp"/>
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.SetUpProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.LogInActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.CreateAccountActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.ravimessagingdalal.messagingapp.Activities.MainActivity"
+            android:exported="false" />
+
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_chats" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/green" />
+
+
+    </application>
+
+</manifest>

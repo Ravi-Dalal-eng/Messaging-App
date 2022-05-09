@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Messaging App</string>
+    <string name="continues">Continue</string>
+    <string name="message_send_otp">Messaging App will send an OTP to verify your phone number...</string>
+    <string name="enter_otp">Enter the OTP code to verify your phone number...</string>
+    <string name="setup_profile">Setup Profile</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="set_name_and_optional_profile_image">Please set your name and an optional profile image...</string>
+    <string name="profile_info">Profile Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_status">Add Status</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="type_your_password">Type your Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="register">REGISTER</string>
+
+</resources>

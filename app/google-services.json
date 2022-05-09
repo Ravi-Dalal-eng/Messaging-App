@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468471745140",
+    "project_id": "messaging-app-e6d8f",
+    "storage_bucket": "messaging-app-e6d8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468471745140:android:202cbc59f1d402e9209f21",
+        "android_client_info": {
+          "package_name": "com.ravimessagingdalal.messagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468471745140-u7d0d9pg76gerpsg2gvrtjfq0c355p1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxYN3G12vULD4kqMO9fLa9nOIOKHeIpf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468471745140-u7d0d9pg76gerpsg2gvrtjfq0c355p1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
